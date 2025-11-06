@@ -1,0 +1,60 @@
+body{
+  
+    background: radial-gradient(circle at center, #8a0404 0%, #4f0303 100%); /* Teal/Green background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-shadow: black;
+}
+.div1{
+    border: 1px solid  rgb(216, 238, 238);
+    width: 400px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin: 0auto;
+    max-width: 450px;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: 15px 15px 20px rgb(190, 53, 174);
+    border-radius: 10px;
+}
+.butt{
+    height: 35px;
+    width: 190px;
+    background-color:rgb(0, 0, 0);
+    color: aliceblue;
+    border-radius: 5px;
+    border: 1px solid aliceblue;
+    box-shadow: 4px 4px 5px blue;   
+}
+.button{
+    color: aliceblue;
+}
+.input1{
+    height: 30px;
+    width: 300px;
+   text-align: center;
+   background-color: aliceblue;
+   border-radius: 4px;
+}
+.input2{
+    height: 30px;
+    width: 300px;
+   text-align: center;
+   background-color: aliceblue;
+   border-radius: 4px;
+}
+p{
+    font-weight: 100;
+    font-size: Medium;
+    color: rgb(118, 113, 113);
+}
+label{
+    font-size: 22px;
+    color: aliceblue;
+}
