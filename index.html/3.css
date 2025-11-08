@@ -1,0 +1,83 @@
+body {
+    /* Background gradient similar to the image */
+    background: radial-gradient(circle at center, #8a0404 0%, #4f0303 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* --- Dropdown Container --- */
+.dropdown-container {
+    width: 300px; /* Adjust size as needed */
+    position: relative;
+    user-select: none; /* Preveaquatext selection */
+}
+
+/* --- Dropdown Header (The 'Select Social Media' box) --- */
+.dropdown-header {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #333;
+    font-weight: bold;
+}
+
+.caret-icon {
+    transition: transform 0.3s;
+}
+
+/* Rotation when the list is open */
+.dropdown-header.open .caret-icon {
+    transform: rotate(180deg);
+}
+
+/* --- Dropdown List (The options block) --- */
+.dropdown-list {
+    position: absolute;
+    top: 100%; /* Position right below the header */
+    width: 100%;
+    margin-top: 5px;
+    padding: 0;
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency for the card effect */
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    overflow: hidden; /* Ensures rounded corners */
+    z-index: 10;
+}
+
+.dropdown-list.hidden {
+    display: none;
+}
+
+/* --- List Items --- */
+.dropdown-list li {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.15s, color 0.15s;
+    color:black;
+}
+
+/* Icons styling */
+.dropdown-list li i {
+    margin-right: 10px;
+    width: 250px; /* To align the text better */
+    text-align: center;
+}
+
+/* Hover and active state (highlighted in the image) */
+.dropdown-list li:hover{
+    background-color: aqua;
+    color: black;
+}

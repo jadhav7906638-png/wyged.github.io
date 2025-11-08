@@ -1,0 +1,96 @@
+body {
+    background: radial-gradient(circle at center, #8a0404 0%, #4f0303 100%); /* Teal/Green background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-shadow: black;
+}
+
+.login-container {
+    background-color: white;
+    border-radius:10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    overflow: hidden; /* To contain the header background */
+}
+
+.login-header {
+    background-color:aqua; /* Darker green header */
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.login-form {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 8px 10px;
+}
+
+.icon {
+    margin-right: 10px;
+    color: blue;
+    font-size: 1.2em;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 5px 0;
+    font-size: 1em;
+}
+
+.forgot-password {
+    text-align: right;
+    font-size: 0.9em;
+    color: blue;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.login-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: aqua;
+}
+
+.signup-text {
+    text-align: center;
+    font-size: 0.95em;
+    color: gray;
+}
+
+.signup-link {
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
